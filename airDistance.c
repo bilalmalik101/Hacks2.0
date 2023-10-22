@@ -9,5 +9,9 @@ int main(){
     scanf("%lf,%lf",&latorigin,&longorigin);
     printf("Enter the value of Latitude and Longtitude of Destination(latitude ,longtitude):");
     scanf("%lf,%lf",&latdestination,&longdestination);
+    latorigin*=(M_PI/180);
+    latdestination*=(M_PI/180);
+    longorigin*=(M_PI/180);
+    longdestination*=(M_PI/180);
     
 }
