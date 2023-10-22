@@ -13,5 +13,6 @@ int main(){
     latdestination*=(M_PI/180);
     longorigin*=(M_PI/180);
     longdestination*=(M_PI/180);
+    delta=longdestination-longorigin;
     
 }
