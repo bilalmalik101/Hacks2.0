@@ -15,5 +15,7 @@ int main(){
     longdestination*=(M_PI/180);
     delta=longdestination-longorigin;
     airDistance=acos(sin(latorigin) * sin(latdestination) + cos(latorigin) * cos(latdestination)*cos(delta)) *rediousEarth;
+    printf("Origin = %lg degree , %lg degree\n",latorigin*=180/M_PI,longorigin*=180/M_PI);
+    printf("Destination = %lg degree, %lg degree\n",latdestination*=180/M_PI, longdestination*=180/M_PI);
     
 }
